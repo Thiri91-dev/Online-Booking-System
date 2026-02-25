@@ -1,0 +1,23 @@
+[
+    {
+      "model": "Toyota Corolla",
+      "vehicleNo": "SGX1234A",
+      "specs": "1.8L | Automatic | Petrol",
+      "pricePerDay": 80,
+      "imageUrl": "https://example.com/car1.jpg"
+    },
+    {
+      "model": "Honda Civic",
+      "vehicleNo": "SGX5678B",
+      "specs": "2.0L | Automatic | Petrol",
+      "pricePerDay": 90,
+      "imageUrl": "https://example.com/car2.jpg"
+    },
+    {
+      "model": "BMW 320i",
+      "vehicleNo": "SGX9101C",
+      "specs": "2.0L | Automatic | Petrol",
+      "pricePerDay": 150,
+      "imageUrl": "https://example.com/car3.jpg"
+    }
+  ]
