@@ -12,3 +12,20 @@ exports.getCars = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+exports.getCarsByvehicleNo = async (req, res) => {
+  try {
+    const car = await Car.findOne({
+        vehicleNo: req.params.vehicleNo
+    });
+
+    if (!car) {
+      return res.status(404).json({ error: "car not found" });
+    }
+
+    res.json(car);
+
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
