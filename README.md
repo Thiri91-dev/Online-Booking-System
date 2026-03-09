@@ -83,7 +83,5 @@ npm run dev
 |--------|----------|------------|
 | GET    | /api/bookings | Get all bookings |
 | POST   | /api/bookings | Create a booking |
-| PUT    | /api/bookings/:id | Update booking |
-| DELETE | /api/bookings/:id | Delete booking |
 
 ---
