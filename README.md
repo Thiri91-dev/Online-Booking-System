@@ -81,7 +81,14 @@ npm run dev
 
 | Method | Endpoint | Description |
 |--------|----------|------------|
-| GET    | /api/bookings | Get all bookings |
+| GET    | /api/bookings/bookNO | Get bookings detail by bookNo |
 | POST   | /api/bookings | Create a booking |
 
 ---
+
+### Car Routes
+
+| Method | Endpoint | Description |
+|--------|----------|------------|
+| GET    | /api/car/vehicleNo | Get cars detail by vehicleNo|
+| GET   | /api/cars | Get all cars list |
